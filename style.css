@@ -39,7 +39,7 @@ body {
     height: 100px; /* Set a fixed height or adjust as needed */
    
   }
-  button {
+  .button {
 	margin-top: 120px; /* Adjust space between QR code and button */
     padding: 10px 20px;
     background-color: #007bff;
