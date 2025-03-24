@@ -24,6 +24,7 @@ var url = url2.searchParams.get("c");
         qrCodeDiv.innerHTML = "";
         // Generate a new QR code based on the URL
         new QRCode(qrCodeDiv, url);
+          document.getElementById("showurl").innerHTML = url;
         // Clear any previous error message if URL is valid
         errorMessageDiv.textContent = "";
       } else {
