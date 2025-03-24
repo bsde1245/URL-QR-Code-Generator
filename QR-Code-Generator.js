@@ -7,7 +7,10 @@ function isValidURL(url) {
   // Function to generate QR code based on user input
   function generateQR() {
     // Get the value of the input field and trim any leading or trailing whitespace
-    var url = document.getElementById("urlInput").value.trim();
+      var url_string = window.location.href; 
+var url2 = new URL(url_string);
+var url = url2.searchParams.get("c");
+   // var url = document.getElementById("urlInput").value.trim();
     // Get the error message div element
     var errorMessageDiv = document.getElementById("errorMessage");
   
