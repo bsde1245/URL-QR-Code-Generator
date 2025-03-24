@@ -39,7 +39,7 @@ body {
     height: 100px; /* Set a fixed height or adjust as needed */
    
   }
-  .button {
+  button {
 	margin-top: 120px; /* Adjust space between QR code and button */
     padding: 10px 20px;
     background-color: #007bff;
@@ -71,4 +71,12 @@ body {
 
 .footer a:hover {
   text-decoration: underline; /* Add underline on hover */
+}
+.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
 }
